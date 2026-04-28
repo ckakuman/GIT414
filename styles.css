@@ -1,0 +1,20 @@
+/* GLOBAL (Mobile First) */
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* MEDIUM (Tablets - 768px and up) */
+@media (min-width: 768px) {
+    body { background-color: lightblue; }
+}
+
+/* LARGE (Desktops - 1024px and up) */
+@media (min-width: 1024px) {
+    body { background-color: lightgreen; }
+}
+
+/* XL (Large Screens - 1440px and up) */
+@media (min-width: 1440px) {
+    body { background-color: lightcoral; }
+}
